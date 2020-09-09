@@ -1,0 +1,16 @@
+/Users/carterweinberg/haskellPractice/hangman/data/dict.txt:
+  hash: 30955025524490303d940599fe1f116f1e8058f3d23004b15636874822c08b9b
+  size: 5331
+  modtime: 1593817659
+/Users/carterweinberg/haskellPractice/hangman/src/Main.hs:
+  hash: 8aecdea5a92d68415db017bd0bd95a4b1d17a8a3614cf6ab61303974710211a9
+  size: 4308
+  modtime: 1593817526
+/Users/carterweinberg/haskellPractice/hangman/hangman.cabal:
+  hash: 4a7cd39fadd09d1a94d36c907e563c98819c15d3a1bd6c11ea611d7b895ef393
+  size: 706
+  modtime: 1593722218
+/Users/carterweinberg/haskellPractice/hangman/README.md:
+  hash: 3c0956d91bc3154bb4e7030640bbf9a664b6f29beff4595b632f70d859bf0410
+  size: 10
+  modtime: 1593721460

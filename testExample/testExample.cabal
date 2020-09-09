@@ -1,0 +1,71 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 8e2c3d1d0edf9b2020e1a7b7497cc54efb7ee87ca45620b1ef83290445d5b3d1
+
+name:           testExample
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/githubuser/testExample#readme>
+homepage:       https://github.com/githubuser/testExample#readme
+bug-reports:    https://github.com/githubuser/testExample/issues
+author:         Carter Weinberg
+maintainer:     example@example.com
+copyright:      2020 Carter Weinberg
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    ChangeLog.md
+
+source-repository head
+  type: git
+  location: https://github.com/githubuser/testExample
+
+library
+  exposed-modules:
+      Lib
+  other-modules:
+      Paths_testExample
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+      , QuickCheck
+      , hspec
+      , containers
+  default-language: Haskell2010
+
+executable testExample-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_testExample
+  hs-source-dirs:
+      app
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , testExample
+    , QuickCheck
+    , hspec
+    , containers
+  default-language: Haskell2010
+
+test-suite testExample-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_testExample
+  hs-source-dirs:
+      test
+  ghc-options: -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      base >=4.7 && <5
+    , testExample
+    , QuickCheck
+    , hspec
+    , containers
+  default-language: Haskell2010
