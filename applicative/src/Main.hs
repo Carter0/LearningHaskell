@@ -6,8 +6,9 @@ import Control.Applicative
 import Data.Monoid
 import Test.Hspec
 import Test.QuickCheck
-import Test.QuickCheck.Checkers
+import Test.QuickCheck.Checkers 
 import Test.QuickCheck.Classes
+
 
 data List a
   = Nil
